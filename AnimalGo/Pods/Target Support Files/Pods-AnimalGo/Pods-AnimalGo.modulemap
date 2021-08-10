@@ -1,0 +1,6 @@
+module Pods_AnimalGo {
+  umbrella header "Pods-AnimalGo-umbrella.h"
+
+  export *
+  module * { export * }
+}
