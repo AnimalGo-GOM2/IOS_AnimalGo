@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741A0BE9CA65D6468440DC21 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993B6FDFD4C38130B2091A1 /* libPods-OneSignalNotificationServiceExtension.a */; };
+		84C59A5F22DD4B0A00FF6586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C59A5E22DD4B0A00FF6586 /* AppDelegate.swift */; };
+		84C59A6422DD4B0A00FF6586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C59A6222DD4B0A00FF6586 /* Main.storyboard */; };
+		84C59A6622DD4B0D00FF6586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C59A6522DD4B0D00FF6586 /* Assets.xcassets */; };
+		84C59A7122DD4B2A00FF6586 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C59A7022DD4B2A00FF6586 /* BaseViewController.swift */; };
+		84C59A7322DD4B3E00FF6586 /* MainWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C59A7222DD4B3E00FF6586 /* MainWebViewController.swift */; };
+		84C59A7522DD4F0C00FF6586 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C59A7422DD4F0C00FF6586 /* Constants.swift */; };
+		84C59A7822DD509C00FF6586 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C59A7722DD509C00FF6586 /* PermissionManager.swift */; };
+		84C59A7A22DD624500FF6586 /* BaseWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C59A7922DD624500FF6586 /* BaseWebView.swift */; };
+		ED3044D35CA5C857BFF7684E /* libPods-AnimalGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB6655B678900BFAC9A1EF5 /* libPods-AnimalGo.a */; };
+		F4C6C6AE238805FC00363560 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6C6AC238805FB00363560 /* SplashView.swift */; };
+		F4C6C6AF238805FC00363560 /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C6C6AD238805FC00363560 /* SplashView.xib */; };
+		F4D7CA01238FEE6600D68CA7 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7CA00238FEE6600D68CA7 /* NotificationService.swift */; };
+		F4D7CA05238FEE6600D68CA7 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F4D7C9FE238FEE6600D68CA7 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F4F64269238FF236002E8173 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F64268238FF236002E8173 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4D7CA03238FEE6600D68CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C59A5322DD4B0A00FF6586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D7C9FD238FEE6600D68CA7;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		848E97E422DDC1D90097C46B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F4D7CA05238FEE6600D68CA7 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0101329586CBBE9D355FB930 /* Pods-OneSignalNotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationExtension/Pods-OneSignalNotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
+		1895FE652893153D6ECDD41E /* Pods_OneSignalNotificationExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E488AB4C6325A9FBDAA8887 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		4993B6FDFD4C38130B2091A1 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8B2B22B1C08DEE97A8EB76 /* Pods_push_notification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_push_notification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C59A5B22DD4B0A00FF6586 /* AnimalGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C59A5E22DD4B0A00FF6586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C59A6322DD4B0A00FF6586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C59A6522DD4B0D00FF6586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C59A6A22DD4B0D00FF6586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C59A7022DD4B2A00FF6586 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		84C59A7222DD4B3E00FF6586 /* MainWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWebViewController.swift; sourceTree = "<group>"; };
+		84C59A7422DD4F0C00FF6586 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84C59A7722DD509C00FF6586 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		84C59A7922DD624500FF6586 /* BaseWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebView.swift; sourceTree = "<group>"; };
+		904FB8FC26711B570D1C609F /* Pods-AnimalGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalGo.debug.xcconfig"; path = "Target Support Files/Pods-AnimalGo/Pods-AnimalGo.debug.xcconfig"; sourceTree = "<group>"; };
+		9BF7974ABEE926031C695B4F /* Pods-AnimalGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalGo.release.xcconfig"; path = "Target Support Files/Pods-AnimalGo/Pods-AnimalGo.release.xcconfig"; sourceTree = "<group>"; };
+		9C1B5BE1548F07D551029715 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		A44BA9C2A158D9787699F310 /* Pods-push notification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-push notification.release.xcconfig"; path = "Target Support Files/Pods-push notification/Pods-push notification.release.xcconfig"; sourceTree = "<group>"; };
+		AEB6655B678900BFAC9A1EF5 /* libPods-AnimalGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimalGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AA9508825B2CB428F84105 /* Pods-OneSignalNotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationExtension/Pods-OneSignalNotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		DF23AFCA6D5B66491E483971 /* Pods-push notification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-push notification.debug.xcconfig"; path = "Target Support Files/Pods-push notification/Pods-push notification.debug.xcconfig"; sourceTree = "<group>"; };
+		F4C6C6AC238805FB00363560 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F4C6C6AD238805FC00363560 /* SplashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashView.xib; sourceTree = "<group>"; };
+		F4D7C9F9238FEE2700D68CA7 /* AnimalGo.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = AnimalGo.entitlements; sourceTree = "<group>"; };
+		F4D7C9FE238FEE6600D68CA7 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D7CA00238FEE6600D68CA7 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		F4D7CA02238FEE6600D68CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D7CA09238FEF5C00D68CA7 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		F4F64268238FF236002E8173 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FA486BAC81123EC0572D8A90 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C59A5822DD4B0A00FF6586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3044D35CA5C857BFF7684E /* libPods-AnimalGo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D7C9FB238FEE6600D68CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741A0BE9CA65D6468440DC21 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047621AA9F5B13614831E4BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1895FE652893153D6ECDD41E /* Pods_OneSignalNotificationExtension.framework */,
+				6C8B2B22B1C08DEE97A8EB76 /* Pods_push_notification.framework */,
+				FA486BAC81123EC0572D8A90 /* Pods_OneSignalNotificationServiceExtension.framework */,
+				AEB6655B678900BFAC9A1EF5 /* libPods-AnimalGo.a */,
+				4993B6FDFD4C38130B2091A1 /* libPods-OneSignalNotificationServiceExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		599CD7A843E2AE0C13C06522 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				904FB8FC26711B570D1C609F /* Pods-AnimalGo.debug.xcconfig */,
+				9BF7974ABEE926031C695B4F /* Pods-AnimalGo.release.xcconfig */,
+				B2AA9508825B2CB428F84105 /* Pods-OneSignalNotificationExtension.debug.xcconfig */,
+				0101329586CBBE9D355FB930 /* Pods-OneSignalNotificationExtension.release.xcconfig */,
+				DF23AFCA6D5B66491E483971 /* Pods-push notification.debug.xcconfig */,
+				A44BA9C2A158D9787699F310 /* Pods-push notification.release.xcconfig */,
+				9C1B5BE1548F07D551029715 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				2E488AB4C6325A9FBDAA8887 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84C59A5222DD4B0A00FF6586 = {
+			isa = PBXGroup;
+			children = (
+				84C59A5D22DD4B0A00FF6586 /* AnimalGo */,
+				F4D7C9FF238FEE6600D68CA7 /* OneSignalNotificationServiceExtension */,
+				84C59A5C22DD4B0A00FF6586 /* Products */,
+				599CD7A843E2AE0C13C06522 /* Pods */,
+				047621AA9F5B13614831E4BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84C59A5C22DD4B0A00FF6586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C59A5B22DD4B0A00FF6586 /* AnimalGo.app */,
+				F4D7C9FE238FEE6600D68CA7 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C59A5D22DD4B0A00FF6586 /* AnimalGo */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7C9F9238FEE2700D68CA7 /* AnimalGo.entitlements */,
+				84C59A7622DD508D00FF6586 /* Common */,
+				84C59A5E22DD4B0A00FF6586 /* AppDelegate.swift */,
+				84C59A6222DD4B0A00FF6586 /* Main.storyboard */,
+				84C59A7022DD4B2A00FF6586 /* BaseViewController.swift */,
+				84C59A7222DD4B3E00FF6586 /* MainWebViewController.swift */,
+				84C59A6522DD4B0D00FF6586 /* Assets.xcassets */,
+				F4F64268238FF236002E8173 /* Launch Screen.storyboard */,
+				84C59A6A22DD4B0D00FF6586 /* Info.plist */,
+				84C59A7922DD624500FF6586 /* BaseWebView.swift */,
+			);
+			path = AnimalGo;
+			sourceTree = "<group>";
+		};
+		84C59A7622DD508D00FF6586 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F4C6C6AC238805FB00363560 /* SplashView.swift */,
+				F4C6C6AD238805FC00363560 /* SplashView.xib */,
+				84C59A7422DD4F0C00FF6586 /* Constants.swift */,
+				84C59A7722DD509C00FF6586 /* PermissionManager.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F4D7C9FF238FEE6600D68CA7 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7CA09238FEF5C00D68CA7 /* OneSignalNotificationServiceExtension.entitlements */,
+				F4D7CA00238FEE6600D68CA7 /* NotificationService.swift */,
+				F4D7CA02238FEE6600D68CA7 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C59A5A22DD4B0A00FF6586 /* AnimalGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C59A6D22DD4B0D00FF6586 /* Build configuration list for PBXNativeTarget "AnimalGo" */;
+			buildPhases = (
+				3521E12B18D94640FDED8238 /* [CP] Check Pods Manifest.lock */,
+				84C59A5722DD4B0A00FF6586 /* Sources */,
+				84C59A5822DD4B0A00FF6586 /* Frameworks */,
+				84C59A5922DD4B0A00FF6586 /* Resources */,
+				848E97E422DDC1D90097C46B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D7CA04238FEE6600D68CA7 /* PBXTargetDependency */,
+			);
+			name = AnimalGo;
+			productName = AnimalGo;
+			productReference = 84C59A5B22DD4B0A00FF6586 /* AnimalGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4D7C9FD238FEE6600D68CA7 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D7CA06238FEE6700D68CA7 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				44E44E909BB01702EF0FBC93 /* [CP] Check Pods Manifest.lock */,
+				F4D7C9FA238FEE6600D68CA7 /* Sources */,
+				F4D7C9FB238FEE6600D68CA7 /* Frameworks */,
+				F4D7C9FC238FEE6600D68CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = F4D7C9FE238FEE6600D68CA7 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C59A5322DD4B0A00FF6586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = AnimalGo;
+				TargetAttributes = {
+					84C59A5A22DD4B0A00FF6586 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					F4D7C9FD238FEE6600D68CA7 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 84C59A5622DD4B0A00FF6586 /* Build configuration list for PBXProject "AnimalGo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C59A5222DD4B0A00FF6586;
+			productRefGroup = 84C59A5C22DD4B0A00FF6586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C59A5A22DD4B0A00FF6586 /* AnimalGo */,
+				F4D7C9FD238FEE6600D68CA7 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C59A5922DD4B0A00FF6586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C6C6AF238805FC00363560 /* SplashView.xib in Resources */,
+				84C59A6622DD4B0D00FF6586 /* Assets.xcassets in Resources */,
+				F4F64269238FF236002E8173 /* Launch Screen.storyboard in Resources */,
+				84C59A6422DD4B0A00FF6586 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D7C9FC238FEE6600D68CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3521E12B18D94640FDED8238 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimalGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44E44E909BB01702EF0FBC93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C59A5722DD4B0A00FF6586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C59A7322DD4B3E00FF6586 /* MainWebViewController.swift in Sources */,
+				84C59A7822DD509C00FF6586 /* PermissionManager.swift in Sources */,
+				84C59A5F22DD4B0A00FF6586 /* AppDelegate.swift in Sources */,
+				84C59A7122DD4B2A00FF6586 /* BaseViewController.swift in Sources */,
+				84C59A7A22DD624500FF6586 /* BaseWebView.swift in Sources */,
+				84C59A7522DD4F0C00FF6586 /* Constants.swift in Sources */,
+				F4C6C6AE238805FC00363560 /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D7C9FA238FEE6600D68CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D7CA01238FEE6600D68CA7 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4D7CA04238FEE6600D68CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D7C9FD238FEE6600D68CA7 /* OneSignalNotificationServiceExtension */;
+			targetProxy = F4D7CA03238FEE6600D68CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C59A6222DD4B0A00FF6586 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C59A6322DD4B0A00FF6586 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C59A6B22DD4B0D00FF6586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		84C59A6C22DD4B0D00FF6586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C59A6E22DD4B0D00FF6586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904FB8FC26711B570D1C609F /* Pods-AnimalGo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AnimalGo/AnimalGo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.92;
+				DEVELOPMENT_TEAM = CGB9ZY6TSF;
+				INFOPLIST_FILE = AnimalGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.92;
+				PRODUCT_BUNDLE_IDENTIFIER = io.animalgo.mobileapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C59A6F22DD4B0D00FF6586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF7974ABEE926031C695B4F /* Pods-AnimalGo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AnimalGo/AnimalGo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.92;
+				DEVELOPMENT_TEAM = CGB9ZY6TSF;
+				INFOPLIST_FILE = AnimalGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.92;
+				PRODUCT_BUNDLE_IDENTIFIER = io.animalgo.mobileapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4D7CA07238FEE6700D68CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1B5BE1548F07D551029715 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGB9ZY6TSF;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.animalgo.mobileapp.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4D7CA08238FEE6700D68CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E488AB4C6325A9FBDAA8887 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGB9ZY6TSF;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.animalgo.mobileapp.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C59A5622DD4B0A00FF6586 /* Build configuration list for PBXProject "AnimalGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C59A6B22DD4B0D00FF6586 /* Debug */,
+				84C59A6C22DD4B0D00FF6586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C59A6D22DD4B0D00FF6586 /* Build configuration list for PBXNativeTarget "AnimalGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C59A6E22DD4B0D00FF6586 /* Debug */,
+				84C59A6F22DD4B0D00FF6586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D7CA06238FEE6700D68CA7 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D7CA07238FEE6700D68CA7 /* Debug */,
+				F4D7CA08238FEE6700D68CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C59A5322DD4B0A00FF6586 /* Project object */;
+}
